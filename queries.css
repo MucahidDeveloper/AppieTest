@@ -1,0 +1,349 @@
+/* AT 1280px */
+@media (max-width: 80em) {
+  .content {
+    max-width: 120rem;
+    margin: 0 auto 4.2rem auto;
+  }
+  .header {
+    max-width: 120rem;
+    margin: 0 auto;
+    /* height: 8.4rem; */
+  }
+  .video-content {
+    margin-left: 3.4rem;
+  }
+  .footer-download {
+    padding-left: 2.4rem;
+  }
+}
+/* AT 1160px */
+@media (max-width: 72.5em) {
+  html {
+    font-size: 52.5%;
+  }
+  .content {
+    max-width: 120rem;
+    margin: 0 auto 5.4rem auto;
+    padding: 4.4rem 2.4rem 2.4rem 4.4rem;
+  }
+  .hero {
+    grid-template-columns: 3fr 1fr;
+  }
+  .hero-img {
+    height: 37rem;
+  }
+  .hero-content {
+    padding: 3.2rem 0 2.4rem 3.2rem;
+  }
+  .testimonial {
+    grid-template-columns: 2fr 5fr;
+  }
+  .platforms {
+    padding: 2.4rem 0;
+  }
+  .platforms-companies {
+    padding: 0 8rem;
+  }
+  .using {
+    padding: 0;
+    height: 80vh;
+  }
+  .using-headline {
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 2.4rem;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .using p {
+    margin-bottom: 3.6rem;
+  }
+  .using-fut {
+    padding: 0;
+
+    align-items: start;
+  }
+
+  .using-fut-list {
+    padding-top: 6.2rem;
+  }
+  .using-img {
+    height: 60%;
+  }
+  .app-footer {
+    width: 25rem;
+  }
+}
+/* AT 1040px */
+@media (max-width: 65em) {
+  .content {
+    max-width: 120rem;
+    margin: 0 auto 2.4rem auto;
+    padding-top: 3.6rem;
+  }
+  .using-list p {
+    text-align: left;
+  }
+  .marketing-content {
+    padding-top: 6rem;
+  }
+  .links {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+  .footer {
+    height: 45vh;
+  }
+  .marketing-fut {
+    padding: 0;
+    padding-left: 1.8rem;
+  }
+  .testimonial {
+    margin: 0 6.4rem;
+    padding: 2.4rem 7.6rem;
+  }
+  .icon-imgs {
+    grid-template-columns: 3fr 2fr;
+    justify-items: start;
+    gap: 2.4rem;
+  }
+  .pricing-head {
+    padding: 0;
+    padding-top: 2.4rem;
+  }
+  .pricing-plan {
+    border: 0.3rem solid #eef1f6;
+
+    padding: 1.8rem;
+    margin-bottom: 3.2rem;
+    width: 30rem;
+    height: 42rem;
+  }
+  .marketing {
+    gap: 1.8rem;
+    grid-template-columns: 1fr 2fr;
+  }
+  .marketing-img {
+    height: 60%;
+  }
+}
+/* AT 840px */
+@media (max-width: 52.5em) {
+  html {
+    font-size: 50%;
+  }
+  .content {
+    max-width: 100rem;
+    margin: 0 auto 2.4rem auto;
+    /* padding: 2.4rem 1.8rem 1.8rem 2.4rem; */
+  }
+  .headline {
+    font-size: 4.6rem;
+    font-weight: 400;
+    margin-bottom: 1.2rem;
+  }
+  .hero-img {
+    height: 30rem;
+  }
+
+  .video {
+    max-width: 45rem;
+    margin-bottom: 1.8rem;
+  }
+  .appl {
+    padding: 0;
+  }
+  .section-headline {
+    margin-bottom: 1.4rem;
+  }
+  .using-headline {
+    max-width: 100%;
+    padding: 0;
+    margin: 1.4rem auto;
+  }
+  .icon-section {
+    gap: 2.4rem;
+    margin: 3.4rem;
+  }
+  .icon-section-el {
+    width: 18rem;
+    box-shadow: 0 1.4rem 1.4rem rgb(0 0 0 / 40%);
+  }
+  .apple-p {
+    width: 70%;
+  }
+  .pricing-head {
+    margin-bottom: 0;
+  }
+  .pricing-options {
+    /* padding: 0; */
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* AT 672px */
+@media (max-width: 42em) {
+  .content {
+    max-width: 80rem;
+    margin: 0 auto 1.4rem auto;
+    padding: 2.4rem 1.8rem 1.8rem 2.4rem;
+  }
+  .nav-links.nav-cta.mobile-b {
+    display: block;
+  }
+  .mainNav {
+    justify-content: end;
+    gap: 2.4rem;
+  }
+  .mainNav-list {
+    display: none;
+  }
+  .features,
+  .icon-section {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1.8rem;
+  }
+  .using-fut-list {
+    padding-left: 1.8rem;
+  }
+
+  .footer-container {
+    gap: 1.4rem;
+  }
+  .footer-links {
+    gap: 1.8rem;
+  }
+  .marketing-content {
+    column-gap: 1.8rem;
+    /* margin-left: -3.6rem; */
+  }
+  .marketing-fut {
+    padding: 0;
+    margin-left: -1.6rem;
+  }
+}
+@media (max-width: 37em) {
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .icon-imgs,
+  .testimonial,
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
+  }
+  .features,
+  .feature,
+  .paragraf {
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-content {
+    justify-self: start;
+  }
+  .hero-img {
+    justify-self: end;
+  }
+  .hero p {
+    text-align: left;
+  }
+  .work .section-head {
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+  .section-headline {
+    text-align: center;
+  }
+  .marketing-img {
+    display: none;
+  }
+  .marketing {
+    height: 50vh;
+    padding: 1.2rem;
+  }
+  .marketing-fut {
+    grid-template-columns: 1fr;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+  }
+  .using {
+    height: 100vh;
+  }
+  .using-img {
+    align-self: start;
+  }
+  .using-headline {
+    /* margin: 0; */
+    width: 80%;
+  }
+  .using-fut {
+    gap: 0;
+    padding: 0;
+  }
+  .apple-p,
+  .apple-p .section-headline,
+  .apple-p p {
+    width: 100%;
+    text-align: left;
+    padding: 0;
+  }
+  .plan {
+    margin-top: 6.2rem;
+  }
+  .pricing-plan {
+    width: 80%;
+    height: 42rem;
+  }
+  .pricing-plan p {
+    text-align: left;
+  }
+  .testimonial {
+    margin: 12rem;
+    padding: 2.8rem;
+  }
+  .auther {
+    align-self: center;
+  }
+  .t-arrows {
+    display: none;
+  }
+  .platforms-companies {
+    padding: 9.2rem;
+  }
+  .footer-container {
+    padding: 2.4rem 6.4rem;
+    gap: 1.8rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    border-bottom: 0.3rem solid #e1e5ec;
+    margin-bottom: 1.8rem 1rem;
+  }
+  .footer {
+    height: 100vh;
+  }
+  .footer-container .shares,
+  .footer-container .more,
+  .footer-container .contact {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+  }
+  .footer-links,
+  .footer-download {
+    flex-direction: column;
+  }
+  .headline,
+  .section-headline {
+    margin-top: 3.2rem;
+  }
+}
